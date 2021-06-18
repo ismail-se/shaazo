@@ -1,0 +1,11 @@
+export interface ProductsProps {}
+
+const Products: React.FunctionComponent<ProductsProps> = () => {
+  return (
+    <div>
+      <h1>Product</h1>
+    </div>
+  );
+};
+
+export default Products;
